@@ -1,16 +1,19 @@
 import java.util.ArrayList;
 
 public class Search{
+
+
+    public static void main(String []args){
+
     ArrayList<String> haystack = new ArrayList<String>();
     String needle;
+    haystack.add("hay");
+    haystack.add("hay");
+    haystack.add("needle");
+    haystack.add("hay");
 
 
-    public Search(ArrayList<String> haystack, String needle){
-        this.haystack = haystack;
-        this.needle = needle;
-    }
-
-    public static int normalSearch(String needle){
+    public static int normalSearch(ArrayList<String> haystack, String needle){
         for(int j = 0; j < haystack.size(); j++){
             if(haystack.get(j).equals(needle)){
                 return j;
@@ -20,6 +23,8 @@ public class Search{
         return -1;
     }
 
+    }
+    
 
 
 
