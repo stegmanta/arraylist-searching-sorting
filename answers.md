@@ -10,3 +10,13 @@ I noticed that as looking for something that is in the list the search algorithm
 The binary search would first create a index for each item on the list then would split the list in half and check the lowest or highest half of the list and would keep going into the list cannot be split then check each item in the split and it would return if it is found.
     a. the search method accessed all of them, the binary search accessed 2
     b. if it was that long my answer would stay the same.
+
+
+### Sorting questions
+1. I noticed that the selection sort method definitely took the longest.
+
+2. For the selection sort algorithm it would perform a comparison as many times as there are items in the list. For the insertion method it would do half as many and the bubble sort would do a quarter as many.
+
+3-4.The same goes for questions 3 and 4 as well as question 2
+
+5. Yes sorting and then searching would be a very reasonable thing to do to find the items it would honestly probably be the quickest.
