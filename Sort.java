@@ -83,7 +83,6 @@ public class Sort{
         String g;
 
         System.out.println("The bubble sorted list is: ");
-        if(list.size() > 1){
             for(int j = 0; j < list.size(); j++){
                 for(int k = 0 ; k < list.size() - 1; k++){
                     if(list.get(k).compareTo(list.get(k + 1)) > 0){
@@ -94,7 +93,6 @@ public class Sort{
 
                 }
             }
-        }
         for(int j = 0; j < list.size(); j++){
             System.out.println(list.get(j));
         }
